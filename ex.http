@@ -1,0 +1,14 @@
+POST http://localhost:8050/sale/sale/travel/product
+Content-Type: application/xml
+Authorization: token eyJhdXRoIjp7InVzZXJJZCI6IjAzOTU2NDgzMjAiLCJkZXZpY2VJZCI6bnVsbCwiYXBwSWQiOm51bGwsInByb2plY3RJZCI6bnVsbCwidXNlclRpdGxlSWQiOm51bGwsInJvbGVJZCI6bnVsbCwidG9rZW5UeXBlIjoyLCJkZXZpY2VTdGF0dXMiOm51bGwsImNvbXBhbnlJZCI6IjIwMDAwODAwMCIsImxldmVsSWQiOiIyMDAwMDgwMDBfMyIsImV4cGlyZUF0IjoxNzI3NzQ5NjY3ODczLCJhY3RpdmVUaW1lIjoxNzI3NjY2ODY3ODczLCJjcmVhdGVkQXQiOjE3Mjc2NjMyNjc4NzN9LCJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhZjU2OTRmYzc3YWNiNmM2N2YyMzAxOTI0MGMxNjAyMSIsInVzZXJJZCI6eyJ1c2VySWQiOiIwMzk1NjQ4MzIwIiwidXNlcm5hbWUiOiIwMzk1NjQ4MzIwIiwiZW1haWwiOm51bGwsInBob25lIjpudWxsLCJkZXZpY2VJZCI6bnVsbCwiYWNjb3VudFR5cGUiOm51bGwsImxhbmd1YWdlIjpudWxsLCJjdXN0b21lck5hbWUiOm51bGwsInNleCI6bnVsbCwiZGVjZW50cmFsaXphdGlvbkxpc3QiOm51bGx9fQ.Kz1vKGfm9KAVAzJkHUetlgeuyohUtfLPUU75l-9Mgsx3lb3eHsLEiTxcfXrutp15TBmtmTuT1DusGPS4wkQK8h37Z1laPNBoNWYU2PGaqnyye0PBLstoFwJC2wzwvvf05RRA3j8WyZg3T8xPu8FgEVd6cnTJI4qbj77PLKrjTBB1l8Qnr0BDb-UEDW6GFCrWmL-ByYbEZU1aG6eWMCNigJUJvNVQAYdeR_3PR0MB56CXzSLQ8GEyKORwvXiSccBi79usdwCsx8hmXxSPr948Wzy6sss0P7x4dGKlXr94zgLtHStwDOOCD9Ufq6dqhv1-VtKJGQaELn1LVZGMyceZwA
+{
+    "periodType": 1,
+    "periodValue": 2,
+    "destination": 2,
+    "travelProgramObject": 1,
+    "adults": 2,
+    "kids": 1,
+    "fromDate": 1727715600000,
+    "toDate": 1728493200000,
+    "displayAppAgency": 1
+}
